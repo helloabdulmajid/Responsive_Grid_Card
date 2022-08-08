@@ -3,20 +3,19 @@ import '../styles/Card.css'
 import { CardList } from '../helper/CardList'
 
 const Card = () => {
-    console.log(CardList.image)
   
   return (
    <>
     <div className="main">
         <h1>Responsive Card Grid Layout</h1>
-        
+        <ul className="cards">
 
     
         {
                 CardList.map((x)=>{
                     return(
                         <>
-                        <ul className="cards">
+                       
                          <li className="cards_item">
                          <div className="card">
                         
@@ -30,13 +29,13 @@ const Card = () => {
               </div>
          
               </li>
-              </ul>
+             
               </>
                     );
                 })
             }
 
-      
+</ul>
     </div>
       
       {/* <h3 className="made_by">Made with ♡</h3> */}
