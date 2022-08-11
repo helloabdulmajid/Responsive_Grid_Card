@@ -9,21 +9,13 @@ const Card = () => {
     <div className="main">
         <h1>Responsive Card Grid Layout</h1>
         <ul className="cards">
-<<<<<<< HEAD
-=======
-                        
-                      
->>>>>>> 0df31875d30855c0cf1ccd3a68c2c15cd278c774
 
     
         {
                 CardList.map((x)=>{
                     return(
                         <>
-<<<<<<< HEAD
-                       
-=======
->>>>>>> 0df31875d30855c0cf1ccd3a68c2c15cd278c774
+
                          <li className="cards_item">
                            <div className="card">
                         <div className="card_image"><img   src={x.image} alt="am"/>
@@ -35,12 +27,8 @@ const Card = () => {
                 <button className="btn card_btn">{x.more}</button>
               </div>
               </div>
-<<<<<<< HEAD
-         
-              </li>
-=======
          </li>
->>>>>>> 0df31875d30855c0cf1ccd3a68c2c15cd278c774
+
              
               </>
                     );
@@ -48,8 +36,7 @@ const Card = () => {
             }
              
          
-         </ul>
-
+       
 </ul>
     </div>
       
